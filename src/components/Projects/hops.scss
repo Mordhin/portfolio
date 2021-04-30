@@ -1,0 +1,47 @@
+.hops {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px 40px;
+    
+}
+
+.hops_description {
+    text-align: justify;
+}
+
+.discret {
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(254, 254, 254, 0.6);
+}
+
+.hops_photo {
+    display: flex;
+    align-items: center;
+    img {
+        width: 400px;
+    }
+    
+}
+
+.hops_footer {
+    grid-column: 1/3;
+
+    display: flex;
+    
+    align-items: center;
+}
+
+.hops_tags {
+    display: flex;
+}
+
+.hops_link a{
+    color: #1e1e1e90;
+    margin-left: 16px;
+    transition: color 0.15s ease-in;
+    &:hover {
+        color: #fefefe;
+    }
+}

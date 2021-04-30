@@ -1,0 +1,24 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_body {
+    display: flex;
+    flex-direction: column;
+    .fa-times {
+        text-align: right;
+        color: white;
+        &:before {
+            cursor: pointer;
+        }
+    }
+}

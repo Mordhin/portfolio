@@ -1,0 +1,50 @@
+.footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: rgba(254, 254, 254, 0.6);
+    
+    padding: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    .smallsized {
+        font-size: 12px;
+    }
+    ul {
+        list-style: none;
+        margin: 5px 0px 10px 0px;
+        padding: 0;
+        font-size: 30px;
+        li {
+            display: inline;
+            margin: 10px;
+        }
+    }
+    .font {
+        color: rgba(254, 254, 254, 0.3);
+        font-size: 12px;
+    }
+}
+
+.fa-linkedin {
+    cursor: pointer;
+    &:hover, &:active {
+        color: #0966C2;
+    }
+}
+
+.fa-github-square {
+    cursor: pointer;
+    &:hover, &:active {
+        color: rgb(255, 202, 102);
+    }
+}
+
+.fa-twitter-square {
+    cursor: pointer;
+    &:hover, &:active {
+        color: #1991DA;
+    }
+}

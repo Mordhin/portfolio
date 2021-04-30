@@ -1,0 +1,30 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    h3 {
+        margin: 0;
+        font-size: 32px;
+    }
+}
+
+.button-copy {
+    background-color: white;
+    color: rgb(83,156,198);
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 20px;
+    padding: 5px 10px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    &:active {
+        box-shadow: inset 2px 2px 10px rgba(30, 30, 30, 0.2);
+    }
+
+}
