@@ -16,6 +16,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&family=Secular+One&family=Work+Sans&display=swap');
+
 
 * {
   box-sizing: inherit;
@@ -33,12 +39,14 @@ html {
 }
 
 body {
-    background: rgb(83,156,198);
-    background: radial-gradient(circle, rgba(83,156,198,1) 50%, rgba(54,107,161,1) 100%);
+  background: rgb(65,135,170);
+  background: radial-gradient(circle, rgba(65,135,170,1) 50%, rgba(50,85,100,1) 100%);
     background-attachment: fixed;
     height: 100%;
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
     color: #fefefe;
     line-height: 1.5;
 
@@ -48,17 +56,20 @@ h1 {
     /* font-family: 'Playfair Display', serif; */
     /* font-family: 'Bowlby One SC', cursive; */
     /* font-family: 'Crete Round', serif; */
-    font-family: 'Holtwood One SC', serif;
-    font-size: 40px;
-    font-weight: 400;
+    font-family: 'Secular one', serif;
+    font-size: 48px;
+    font-weight: bold;
     margin: 0;
+    padding: 0;
+    line-height: 48px;
+    vertical-align: middle;
     
 }
 
 h2 {
-    font-family: 'Bree Serif', serif;
-    font-size: 40px;
-    font-weight: 0;
+    font-family: 'Mulish', serif;
+    font-size: 32px;
+    font-weight: 500;
     margin: 0;
     
 }

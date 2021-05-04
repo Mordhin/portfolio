@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../assets/avatarblue.png';
+import photo from '../assets/photonb.png';
 
 export const About = () => {
     return (

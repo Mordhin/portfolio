@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     return (
         <div className='navbar'>
-            <div className='name'> <h1>JULIEN CORION</h1></div>
+            <div className='name'> <h1>Julien Corion.</h1></div>
             <div className='buttons'>
 
                 <div className = {toggleState === '/' ? 'nav_button active' : 'nav_button'}>
