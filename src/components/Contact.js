@@ -22,7 +22,7 @@ export const Contact = () => {
         <div className='wrapper'>
             <div className='contact'>
                 <div>N'hésitez pas à me contacter à cette adresse :</div>
-                <div className='flex'>
+                <div className='contact_adress'>
                     <h3>astram59@gmail.com</h3>
                     <CopyToClipboard text='astram59@gmail.com' 
                                     onCopy={()=> setCopied(true)}>
