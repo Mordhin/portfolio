@@ -11,7 +11,7 @@ export const Hops = () => {
                 <p>
                     Application Web qui, tel un carnet de bord, permet de 
                     tracker sa consommation de bière.
-                    <br/>Ainsi il est possible d'enregistrer (en scannant le codebar) 
+                    <br/>Ainsi il est possible d'enregistrer (en scannant le code-barres) 
                     une bière que l'on vient de goûter, indiquer si elle nous a plu, 
                     obtenir une multitude d'informations concernant le produit mais 
                     aussi le producteur.
