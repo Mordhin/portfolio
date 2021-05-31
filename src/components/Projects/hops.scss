@@ -1,76 +1,84 @@
-.hops {
-    display: grid;
-    
-    
+.project {
+  display: grid;
+  margin-bottom: 40px;
 }
 
-.hops_description {
-    text-align: justify;
+.alternate {
+}
+
+.project_description {
+  text-align: justify;
 }
 
 .discret {
-    font-size: 12px;
-    font-style: italic;
-    color: rgba(254, 254, 254, 0.6);
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(254, 254, 254, 0.6);
 }
 
-.hops_photo {
-    display: flex;
-    align-items: center;
-    
+.project_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.hops_footer {
-    align-items: center;
+.project_footer {
+  align-items: center;
 }
 
-.hops_tags {
-    display: flex;
-    flex-wrap: wrap;
+.project_tags {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.hops_link a{
-    color: #fefefe;
-    /* margin-left: 16px; */
-    transition: color 0.15s ease-in;
-    &:hover {
-        color: #1e1e1e;
-    }
+.project_link a {
+  color: #fefefe;
+  margin: 20px 20px 0 0;
+  /* margin-left: 16px; */
+  transition: color 0.15s ease-in;
+  &:hover {
+    color: #1e1e1e;
+  }
+}
+
+.link_buttons {
+  display: flex;
 }
 
 @media (min-width: 880px) {
-    .hops {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr;
-      grid-gap: 0px 40px;
-    }
-    .hops_photo img {
-      width: 400px;
-    }
-    .hops_footer {
-      grid-column: 1/3;
-      display: flex;
-    }
+  .project {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px 40px;
+  }
+  .project_photo img {
+    width: 400px;
+  }
+  .project_footer {
+    grid-column: 1/3;
+    display: flex;
+  }
 }
 
 @media (max-width: 880px) {
-    .hops {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto;
-      /* grid-gap: 0px 40px; */
+  .project {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    /* grid-gap: 0px 40px; */
+  }
+  .project_description {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .project_photo {
+    grid-column: 1;
+    grid-row: 2;
+    img {
+      width: 250px;
     }
-    .hops_description {
-      grid-column: 1;
-      grid-row: 1;
-    }
-    .hops_photo {
-      grid-column: 1;
-      grid-row: 2;
-      img {
-        width: 250px;
-      }
-    }
-    .hops_footer {
-      display: inline-block;
-    }
+  }
+  .project_footer {
+    display: inline-block;
+  }
 }
