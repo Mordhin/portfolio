@@ -13,7 +13,7 @@
 .discret {
   font-size: 12px;
   font-style: italic;
-  color: rgba(254, 254, 254, 0.6);
+  color: rgba((var(--white)), 0.6);
 }
 
 .project_photo {
@@ -33,12 +33,12 @@
 }
 
 .project_link a {
-  color: #fefefe;
+  color: rgb(var(--white));
   margin: 20px 20px 0 0;
   /* margin-left: 16px; */
   transition: color 0.15s ease-in;
   &:hover {
-    color: #1e1e1e;
+    color: rgb(var(--dark));
   }
 }
 
