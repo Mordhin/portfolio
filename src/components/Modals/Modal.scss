@@ -16,7 +16,7 @@
     flex-direction: column;
     .fa-times {
         text-align: right;
-        color: white;
+        color: rgb(var(--white));
         &:before {
             cursor: pointer;
         }

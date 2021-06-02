@@ -9,7 +9,9 @@
 @import "./components/Modals/Modal.scss";
 @import "./components/Contact.scss";
 
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 
@@ -17,7 +19,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&family=Secular+One&family=Work+Sans&display=swap");
@@ -25,11 +27,12 @@
 * {
   box-sizing: inherit;
 
-  --primary: blue;
-  --secondary: red;
-  --dark: black;
-  --lightDark: grey;
-  --white: 254, 254, 254;
+  --primary: 70,140,200;
+  --outerCircleBg: 50,110,160;
+  --innerCircleBg: 90,185,235;
+  --dark: 30, 30, 30; /* #1E1E1E */
+  --lightDark: 70, 70, 70;
+  --white: 254, 254, 254; /* #FEFEFE */
 }
 
 html,
@@ -44,17 +47,15 @@ html {
 }
 
 body {
-
-  background: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgba(65,135,170,1) 50%, rgba(50,85,100,1) 100%);
-    background-attachment: fixed;
-    height: 100%;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    letter-spacing: 1px;
-    color: rgb(var(--white));
-    line-height: 1.5;
+  background: radial-gradient(circle at 80% 0%, rgba(var(--innerCircleBg),1) 10%, rgba(var(--primary),1) 60%, rgba(var(--outerCircleBg),1) 100%);
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: rgb(var(--white));
+  line-height: 1.5;
 }
 
 h1 {
@@ -71,21 +72,26 @@ h1 {
 }
 
 h2 {
-  font-family: "Mulish", serif;
-  font-size: 32px;
-  font-weight: 500;
+  font-family: "Arvo", serif;
+  font-size: 40px;
+  font-weight: 400;
   margin: 0;
 }
 
 h3 {
+  font-family: "Arvo", serif;
   font-size: 24px;
-
+  font-weight: 400;
   margin: 0px 0px 16px 0px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+strong {
+  font-weight: 500;
 }
 
 .wrapper {

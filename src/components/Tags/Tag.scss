@@ -1,6 +1,6 @@
 .tag {
   background-color: rgb(70, 70, 70);
-  color: #fefefec9;
+  color: rgba(var(--white), .8);
   margin-top: 8px;
   margin-right: 8px;
   padding: 4px 8px;
@@ -8,11 +8,15 @@
 }
 
 .tag_link {
-  background-color: #fefefe;
-  color: #1e1e1e;
+  background-color: rgb(var(--white));
+  color: rgb(var(--dark));
   font-weight: bold;
   margin-top: 8px;
   margin-right: 8px;
   padding: 4px 8px;
   border-radius: 4px;
+  transition: color 0.15s ease-in;
+  &:hover {
+    background-color: rgba(var(--white), .9);
+  }
 }

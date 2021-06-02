@@ -1,7 +1,7 @@
 .footer {
     text-align: center;
-    background-color: #1e1e1e;
-    color: rgba(254, 254, 254, 0.6);
+    background-color: rgb(var(--dark));
+    color: rgba(var(--white), 0.6);
     
     padding: 20px;
     position: relative;
@@ -23,7 +23,7 @@
         }
     }
     .font {
-        color: rgba(254, 254, 254, 0.3);
+        color: rgba(var(--white), 0.3);
         font-size: 12px;
     }
 }
