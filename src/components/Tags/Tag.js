@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
 export const Tag = (props) => {
-    return (
-        <div className='tag'>
-            {props.label}
-        </div>
-    );
+  return <div className={props.type}>{props.children}</div>;
 };
